@@ -11,3 +11,21 @@
 #+select_tags: export
 #+exclude_tags: noexport
 #+cite_export:
+
+* SwiftTempo
+
+A lightweight, distraction-free macOS menu bar metronome.
+
+#+CAPTION: A screenshot of SwiftTempo
+#+NAME:   fig:screenshot
+[[./assets/Screenshot.png]]
+
+** Quick Start
+
+#+begin_src bash
+git clone https://github.com/ongiaf/SwiftTempo.git
+cd SwiftTempo
+xcodebuild -project SwiftTempo.xcodeproj
+open ./build/Release/SwiftTempo.app
+#+end_src
+

@@ -1,0 +1,14 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el

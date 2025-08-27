@@ -2,16 +2,17 @@
 //  SwiftTempoApp.swift
 //  SwiftTempo
 //
-//  Created by Clarke on 2025/8/28.
+//  Created by ongiaf on 2025/8/28.
 //
 
 import SwiftUI
 
 @main
-struct SwiftTempoApp: App {
+struct EternalTempoApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()
         }
     }
 }
