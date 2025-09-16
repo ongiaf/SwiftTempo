@@ -12,3 +12,5 @@
 
 # directory configuration
 .dir-locals.el
+
+build/

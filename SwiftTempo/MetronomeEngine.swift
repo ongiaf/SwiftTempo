@@ -94,8 +94,8 @@ final class MetronomeEngine: ObservableObject {
     }
 
     private func playOneUnit() {
-        let isBeat = (beatIndexInBar == 0)
-        let buffer = isBeat ? accentBuffer! : normalBuffer!
+        let isAccent = (beatIndexInBar == 0)
+        let buffer = isAccent ? accentBuffer! : normalBuffer!
         player.scheduleBuffer(buffer, at: nil, options: .interruptsAtLoop, completionHandler: nil)
         if !player.isPlaying {
             player.play()
